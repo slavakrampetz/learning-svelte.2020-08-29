@@ -65,9 +65,6 @@
 
 
 <style>
-	div {
-		color: red;
-	}
 	:global(*) {
 		box-sizing: border-box;
 	}

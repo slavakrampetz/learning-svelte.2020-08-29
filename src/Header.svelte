@@ -1,11 +1,17 @@
 <script>
 
-import App from "./App.svelte";
+import { each } from "svelte/internal";
+
+const loops = [1];
 
 </script>
+
 <header>
-	<img alt="svelte logo" src="./img/svelte-logo.svg">
-	<span>;)</span>
+	{#each loops as _}
+		<img alt="svelte logo" src="./img/svelte-logo.svg">
+		<span>;)</span>
+	{/each}
+
 </header>
 
 <style>
