@@ -1,0 +1,8 @@
+## Build
+/public/build/
+
+## Node build: npm, pnpm, yarn
+/node_modules/
+/pnpm-lock.yaml
+
+.DS_Store
